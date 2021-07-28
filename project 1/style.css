@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.top {
+    width: 1600px;
+    height: 100px;
+    background-color: #ffffff;
+    border: 1px solid #ececec;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.17);
+}
+
+.container {
+
+}
+.logo {
+    width: 170px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu {
+    width: 1600px;
+height: 51px;
+background-color: #ffffff;
+}
