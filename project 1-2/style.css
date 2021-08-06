@@ -1,0 +1,285 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.top {
+    height: 75px;
+    background: #222222;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.top_logo {
+    display: flex;
+    width: 44px;
+    height: 38px;
+    margin-left: 41px;
+}
+.search {
+    display: flex;
+    margin-left: 41px;
+    margin-top: 5px;
+}
+.top-logo-box {
+    margin-right: 33px;
+}
+.box-logo {
+    display: flex;
+    align-items: center;
+    margin-right: 240px;
+}
+.box-index {
+    display: flex;
+    margin-left: 230px;
+}
+
+.menu-link {
+
+}
+.container {
+    width: 100%;
+    height: 764px;
+    left: 0%;
+    right: 0%;
+    top: 1.96%;
+    bottom: 78.08%;
+    background: #F1E4E6;
+    display: flex;
+    bottom: 65px;
+    display: flex;
+    justify-content: center;
+}
+.preview {
+    width: 800px;
+    height: 764px;
+}
+.brend {
+    width: 800px;
+    height: 382px;
+    display: flex;
+    align-items: flex-end;
+
+}
+.cursor {
+    width: 12px;
+    height: 92px;
+    background: #F16D7F;
+    margin-left: 60px;
+    margin-right: 16px;
+}
+
+.box {
+display: flex;
+justify-content: center;
+}
+.card-box {
+    display: flex;
+    margin-top: 35px;
+    width: 1170px;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.card {
+    display: flex;
+    margin-right: 30px;
+    margin-top: 30px;
+    position: relative;
+    background: rgba(33, 22, 22, 0.7);
+}
+.card--1 {
+    margin-right: 0;
+    }
+.global {
+    
+}
+
+.box-product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.h2-items {
+    align-content: center;
+    margin-top: 96px;
+    margin-bottom: 6px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 36px;
+    color: #222222;
+}
+.p-items {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #9F9F9F;
+    margin-bottom: 18px;
+}
+.item-flex {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 230px;
+    margin-right: 230px;
+    justify-content: center;
+    width: 1400px;
+}
+.item {
+    width: 360px;
+    height: 581px;
+    background: #F8F8F8;
+    position: relative;
+    margin-right: 30px;
+    margin-top: 30px;
+}
+.item-link {
+    text-decoration: none;
+    display: block;
+}
+.img-item {
+    width: 100%;
+}
+.item-txt-box {
+    
+}
+.product-name {
+    margin-top: 25px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+    color: #000000;
+}
+.item-desc {
+    margin-top: 13px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #5D5D5D;
+}
+.item-price {
+    margin-top: 18px;
+    font-family: Lato;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 19px;
+    font-size: 16px;
+    color: #F16D7F;
+    text-transform: uppercase;
+}
+.item:hover {
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.16);
+}
+.item:hover .img-item {
+    filter: brightness(40%);
+}
+.add-box {
+    position: absolute;
+    top: 188px;
+    display: none;
+    width: 100%;
+    justify-content: center;
+}
+.add {
+    
+    border: 1px solid #FFFFFF;
+    text-transform: none;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.add-txt {
+    font-family: Lato;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 17px;
+    font-size: 14px;
+    color: #FFFFFF;
+    margin-left: 11px;
+}
+.add:hover {
+    box-shadow: 0 0 10px #FFFFFF;
+}
+.item:hover .add-box {
+    display: flex;
+}
+.item:nth-child(3n) {
+    margin-right: 0;
+}
+.all-product {
+    width: 211px;
+    height: 47px;
+    display: flex;
+    border: 1px solid #FF6A6A;
+    justify-content: center;
+    align-items: center;
+    margin-top: 48px;
+}
+.all-product:hover {
+    background: #F16D7F;
+    border: 1px solid #FF6A6A;
+}
+.txt-all-product {
+    font-family: Lato;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 19px;
+    font-size: 16px;
+    color: #F26376;
+}
+.all-product:hover .txt-all-product {
+    color: #FFFFFF;
+}
+.link-product {
+    text-decoration: none;
+}
+
+.box-offers {
+    display: flex;
+    background: #222224;
+    width: 100%;
+    height: 341px;
+    margin-top: 95px;
+    justify-content: center;
+}
+.offers {
+    width: 360px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.name-offers {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19.96px;
+    line-height: 24px;
+    color: #FBFBFB;
+    margin-bottom: 18px;
+}
+.desc-offers {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13.972px;
+    line-height: 17px;
+    text-align: center; 
+    color: #FBFBFB;
+}
+.logo-offers {
+    width: 45px;
+    display: block;
+    margin-bottom: 28px;
+
+}
